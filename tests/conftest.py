@@ -9,7 +9,7 @@ def initiate_config():
     yield ConfigManager()
 
 
-@pytest.fixture(scope='session')
+@pytest.fixture(scope='function')
 def initiate_driver(initiate_config):
     driver = DriverManager.init_driver()
     driver.get(initiate_config.get_url())
