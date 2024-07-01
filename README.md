@@ -42,7 +42,7 @@ To run all UI tests:
 ## Running Specific Tests
 
 Using pytest tags
-To run tests with a specific tag (e.g., login/inventory):
+To run tests with a specific tag (e.g., `login/inventory`):
 
 ```bash
  pytest -m login
