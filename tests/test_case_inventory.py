@@ -1,7 +1,7 @@
 import pytest
 
-from tests.pages.inventory_page import InventoryPage
-from tests.pages.login_page import LoginPage
+from src.pages.inventory_page import InventoryPage
+from src.pages.login_page import LoginPage
 
 
 @pytest.mark.parametrize("username", ["standard_user"])

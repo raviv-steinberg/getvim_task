@@ -1,6 +1,6 @@
 import pytest
 
-from tests.pages.login_page import LoginPage
+from src.pages.login_page import LoginPage
 
 
 @pytest.mark.parametrize("username", ["standard_user"])
